@@ -1,5 +1,5 @@
 {% set name = "asyncstdlib" %}
-{% set version = "3.10.0" %}
+{% set version = "3.10.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/asyncstdlib-{{ version }}.tar.gz
-  sha256: 738e1224ca4a82e86e500a89a7bfb5442d6bb44a390b3f0cda340101ed81b236
+  sha256: 421b0d1abae71fcab6c951f228faba967095d5d578317091b624347d9d32739a
 
 build:
   number: 0
