@@ -1,11 +1,11 @@
-About asyncstdlib
-=================
+About asyncstdlib-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asyncstdlib-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/maxfischer2781/asyncstdlib
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/asyncstdlib-feedstock/blob/main/LICENSE.txt)
 
 Summary: The missing async toolbox
 
