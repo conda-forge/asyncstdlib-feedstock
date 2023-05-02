@@ -1,5 +1,5 @@
 {% set name = "asyncstdlib" %}
-{% set version = "3.10.6" %}
+{% set version = "3.10.7" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/asyncstdlib-{{ version }}.tar.gz
-  sha256: c9b42dab38c97957e3382db4238d2fd4dd632d5f10f178392ac29a434dc4407f
+  sha256: e7238a519d3be21cff167838028d67c2531a735907a177aaca25146989b70864
 
 build:
   number: 0
@@ -27,10 +27,14 @@ requirements:
 test:
   imports:
     - asyncstdlib
-  commands:
-    - pip check
   requires:
     - pip
+    - pytest
+  source_files:
+    - unittests
+  commands:
+    - pip check
+    - pytest unittests
 
 about:
   home: https://github.com/maxfischer2781/asyncstdlib
