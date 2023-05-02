@@ -27,10 +27,14 @@ requirements:
 test:
   imports:
     - asyncstdlib
-  commands:
-    - pip check
   requires:
     - pip
+    - pytest
+  source_files:
+    - unittests
+  commands:
+    - pip check
+    - pytest unittests
 
 about:
   home: https://github.com/maxfischer2781/asyncstdlib
