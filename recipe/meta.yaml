@@ -1,5 +1,5 @@
 {% set name = "asyncstdlib" %}
-{% set version = "3.12.0" %}
+{% set version = "3.12.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/asyncstdlib-{{ version }}.tar.gz
-  sha256: 83d620553fea73ee924a986e69135bcacb655f6cdc6f2f9e67030a1e259d8be5
+  sha256: d1f0d439cc9f3ada7c4656590ac145ebeb059b74d9ad1818653a1441b9b873a8
 
 build:
   number: 0
@@ -19,10 +19,9 @@ requirements:
   host:
     - flit-core
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
-    - python >=3.6
-    - typing_extensions
+    - python >=3.8
 
 test:
   imports:
