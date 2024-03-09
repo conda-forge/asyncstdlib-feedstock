@@ -19,10 +19,9 @@ requirements:
   host:
     - flit-core
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
-    - python >=3.6
-    - typing_extensions
+    - python >=3.8
 
 test:
   imports:
